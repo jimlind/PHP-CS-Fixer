@@ -9,7 +9,7 @@ If you are already using a linter to identify coding standards problems in your
 code, you know that fixing them by hand is tedious, especially on large
 projects. This tool does not only detect them, but also fixes them for you.
 
-This is StyleCI's custom vesion.
+This is StyleCI's custom version.
 
 Usage
 -----
@@ -58,8 +58,8 @@ When using combinations of exact and blacklist fixers, applying exact fixers alo
 A combination of ``--dry-run`` and ``--diff`` will
 display a summary of proposed fixes, leaving your files unchanged.
 
-The ``--allow-risky`` option allows you to set whether riskys fixer may run. Default value is taken from config file.
-Risky fixer is a fixer, which could change code behaviour. By default no risky fixers are run.
+The ``--allow-risky`` option allows you to set whether risky fixers may run. Default value is taken from config file.
+Risky fixers are fixers which could change code behaviour. By default no risky fixers are run.
 
 The command can also read from standard input, in which case it won't
 automatically fix anything:
