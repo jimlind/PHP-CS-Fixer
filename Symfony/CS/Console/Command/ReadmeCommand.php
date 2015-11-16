@@ -50,7 +50,7 @@ If you are already using a linter to identify coding standards problems in your
 code, you know that fixing them by hand is tedious, especially on large
 projects. This tool does not only detect them, but also fixes them for you.
 
-This is StyleCI's custom vesion.
+This is StyleCI's custom version.
 
 Requirements
 ------------
